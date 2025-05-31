@@ -97,3 +97,37 @@ body {
     font-size: 0.9em;
     margin: 2px 0;
 }
+
+@media (max-width: 900px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+  .logo-bar {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .main-nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+  .main-nav a {
+    font-size: 1em;
+    padding: 6px 0;
+  }
+  .film-director-section, .gallery {
+    padding: 10px 5px;
+  }
+  .film-director-section h2 {
+    font-size: 1.3em;
+  }
+  .gallery-item img, .single-project img {
+    width: 100vw !important;
+    max-width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+}
