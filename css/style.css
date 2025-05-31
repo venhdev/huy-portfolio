@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #fff;
-    overflow: hidden; /* Hide scrollbars */
 }
 
 .container {
@@ -25,6 +24,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: auto;
+    max-height: 100vh;
 }
 
 header h1 {
