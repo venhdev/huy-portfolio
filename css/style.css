@@ -26,16 +26,17 @@ body {
     justify-content: space-between;
     overflow-y: auto;
     max-height: 100vh;
+    font-size: 1.35em;
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     margin-bottom: 0;
     color: #ffcc00; /* Yellow color from the image */
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 5px;
     color: #ccc;
 }
@@ -51,16 +52,18 @@ header p {
 }
 
 main p {
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    font-size: 1.15em;
 }
 
 footer {
     text-align: center;
+    font-size: 1.1em;
 }
 
 .follow-me {
-    font-size: 1.1em;
+    font-size: 1.25em;
     margin-bottom: 10px;
     color: #ffcc00;
 }
@@ -68,8 +71,8 @@ footer {
 .social-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5em;
-    margin: 0 10px;
+    font-size: 1.7em;
+    margin: 0 12px;
 }
 
 footer p:last-child {
