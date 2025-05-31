@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    background-image: url('https://i.imgur.com/your-image-url.jpg'); /* Placeholder for the image */
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.right-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+    color: #ffcc00; /* Yellow color from the image */
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #ccc;
+}
+
+.my-work-button {
+    background-color: transparent;
+    border: 1px solid #ffcc00;
+    color: #ffcc00;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+main p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+.follow-me {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+footer p:last-child {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #ccc;
+}

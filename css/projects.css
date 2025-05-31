@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow color from the image */
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 30px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.film-director-section {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.film-director-section h2 {
+    font-size: 3em;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.film-director-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr; /* Only one column for a single project */
+    justify-items: center; /* Center the single item */
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    padding: 0 200px; /* Example padding, adjust as needed */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-item .overlay p {
+    color: #fff;
+    font-size: 0.9em;
+    margin: 2px 0;
+}
